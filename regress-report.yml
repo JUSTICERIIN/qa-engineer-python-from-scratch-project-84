@@ -38,7 +38,7 @@ test-cases:
   
 bugreports:
 
- - summary: |
+- summary: |
     При выборе языка "Russian" переводится только часть интерфейса
   environment: |
     Firefox 160.0 (64-разрядная)
