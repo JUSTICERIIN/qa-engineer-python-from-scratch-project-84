@@ -73,3 +73,43 @@
     Значения количества во всех строках корзины выровнены по одной вертикали
   actual-result: |
     Визуально колонка с колличеством не выровнена
+
+- summary: |
+    На главной странице есть кнопкка "Previous" которая при нажатии ничего не делает
+  environment: |
+    Firefox 160.0 (64-разрядная)
+    Windows 22H2
+  steps-to-reproduce: |
+    1. Открыть сайт https://products-store.hexlet.app/
+  expected-result: |
+    Кнопки не должно там быть
+  actual-result: |
+    Кнопка есть и она не работает
+
+- summary: |
+    В карточке товара гиперссылка категории товара не работает
+  environment: |
+    Firefox 160.0 (64-разрядная)
+    Windows 22H2
+  steps-to-reproduce: |
+    1. Открыть сайт https://products-store.hexlet.app/
+    2. Открыть карточку "Hand Blender"
+    3. Жмем на гиперссылку "#kitchen-accessories"
+  expected-result: |
+    Должна открыться страница с товарами относящиеся к этой категории
+  actual-result: |
+    Кнопка при нажатии ничего не делает
+
+- summary: |
+   Кнопка "Hexlet Store" на главной странице не работает
+  environment: |
+    Firefox 160.0 (64-разрядная)
+    Windows 22H2
+  steps-to-reproduce: |
+    1. Открыть сайт https://products-store.hexlet.app/
+    2. Открыть карточку "Hand Blender"
+    3. Жмем на кнопку "Hexlet Store"
+  expected-result: |
+    Должна открыться главная страница
+  actual-result: |
+    Кнопка при нажатии ничего не делает
