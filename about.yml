@@ -2,6 +2,7 @@ name: Nikita
 job: QA Engineer
 level: junior
 email: nikita.ustikov@mail.ru
+description: |
 skills:
   - Функциональное тестирование
   - Нефункциональное тестирование
