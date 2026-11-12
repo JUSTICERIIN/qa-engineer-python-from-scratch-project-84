@@ -2,39 +2,39 @@ test-cases:
 
 - summary: |
     Проверка возможности искать товары по ключевому слову
-  Status: pass
+  status: pass
 
 - summary: |
     Проверка возможности искать товары по категории
-  Status: pass
+  status: pass
 
 - summary: |
     Проверка возможности фильтровать товары по брендам
-  Status: pass
+  status: pass
   
 - summary: |
     Проверка возможности фильтровать товары по цене
-  Status: pass
+  status: pass
   
 - summary: |
     Проверка возможности просматривать товары
-  Status: pass
+  status: pass
 
 - summary: |
     Проверка возможности просматривать подробную информацию о товаре
-  Status: pass
+  status: pass
   
 - summary: |
     Проверка возможности добавлять товары в корзину
-  Status: pass
+  status: pass
 
 - summary: |
     Проверка возможности просматривать содержимое корзины
-  Status: pass
+  status: pass
     
 - summary: |
     Проверка возможности переключать язык интерфейса
-  Status: pass
+  status: pass
   
 bugreports:
 
